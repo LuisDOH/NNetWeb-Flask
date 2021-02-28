@@ -1,0 +1,22 @@
+{% extends 'layout.html' %}
+
+{% block contenido %}
+<link rel="stylesheet" href="{{url_for('static', filename = 'css/registro.css')}}">
+
+<div class="form_contenedor">
+    <h2>Formulario de registro</h2>
+    <form class = "form_registro" action="{{url_for('respuesta')}}" method="POST">
+        <input type="text" name="Nombre"  class="info_txt" placeholder="Ingresa tu nombre">
+        </br>
+        <input type="text" name="Usuario" class="info_txt" placeholder="Ingresa tu nombre de usuario">
+        </br>
+        <input type="text" name="Clave"   class="info_txt" placeholder="Ingresa tu Clave">
+        </br>
+        <div>
+            {{mensaje}}
+        </div>
+        <button class="btn_registrar"> Enviar Informacion </button>
+    </form>
+</div>
+
+{% endblock %}

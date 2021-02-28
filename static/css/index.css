@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: rgb(48, 48, 48);
+    color: white;
+    height: 150px;
+
+    margin-bottom: 50px;
+}
+
+
+h1{ 
+    margin-left: 5%;
+    padding-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu{
+    margin-right: 5%;
+
+}
+
+.navbar{
+    display: flex;
+    float: right;
+}
+
+.navbar li{
+    margin: 0px 20px;
+    list-style-type: none;
+}
+
+.enlace{
+    color: white;
+    text-decoration: none;
+
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.enlace:hover{
+    color: white;
+}
+
+.form_registro{
+    text-align: center;
+}
+
+.info_txt{
+    margin: 10px 0px;
+    width: 50%;
+    height: 50px;
+
+    font-size: 15px;
+}
+
+.form_contenedor{
+    padding: 50px;
+    margin: auto;
+    width: 70%;
+    background-color: white;
+    border-radius: 20px;
+
+}
+
+.btn_registrar{
+    width: 50%;
+    padding: 15px;
+    margin-top: 10px;
+    background-color: rgb(247, 84, 44);
+    border-style: solid;
+    border-radius: 10px;
+
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+
+}
+
+.btn_registrar:hover{
+    background-color: rgb(78, 35, 177);
+}
